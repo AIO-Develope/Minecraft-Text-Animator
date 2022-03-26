@@ -2,7 +2,7 @@
     Minecraft Text Animator
     <br>
     <div align="center">
-    <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" align="center"/>
+    <img src="https://img.shields.io/badge/Python-3.9.10-blue" align="center"/>
     <img src="https://img.shields.io/badge/PyQt-5.5.0-green" align="center"/>
     </div>
 </h1>
