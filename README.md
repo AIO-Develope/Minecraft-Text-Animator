@@ -2,10 +2,10 @@
     Minecraft Text Animator
     <br>
     <div align="center">
-    <img src="https://img.shields.io/badge/Python-3.9.10-blue" align="center"/>
+    <img src="https://img.shields.io/badge/Python-3.9.5-blue" align="center"/>
     <img src="https://img.shields.io/badge/PyQt-5.5.0-green" align="center"/>
     <img src="https://img.shields.io/badge/Developing-Active-brightgreen" align="center"/>
-    <img src="https://img.shields.io/badge/Version-alpha-yellow" align="center"/>
+    <img src="https://img.shields.io/badge/Version-1.0-green" align="center"/>
     </div>
 </h1>
 
