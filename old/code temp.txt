@@ -1,0 +1,81 @@
+# --start-- custome code
+
+        def generate_script():
+            
+            u_text = self.Text.text()
+            
+            # --start-- color
+
+            if self.Red_r.isChecked():
+                color = "&c"
+
+            if self.Blue_r.isChecked():
+                color = "&9"
+
+            # --stop-- color
+
+            # --start-- Format
+            
+            if self.Non_Formatted_r.isChecked():
+                format_sufix = ""
+                format_prefix = ""
+
+            if self.Tab_r.isChecked():
+                format_sufix = "'"
+                format_prefix = "        - '"
+            
+            if self.AnimatedScoreboard_r.isChecked():
+                format_sufix = "'"
+                format_prefix = "  - '"
+
+
+            if self.Scoreboard_r.isChecked():
+                format_sufix = "'"
+                format_prefix = "  - '"
+
+            # --stop-- Format
+
+            # --start-- text verarbeitung
+
+            def split(u_text):
+                return [char for char in u_text]
+
+            c_text = len(u_text)
+            s_text = split(u_text)
+
+            for i in range(c_text + 1):
+                s_text.insert(i, color)
+                s_text.insert(i + 2, '&r')
+
+                f = open("output.txt", "a")
+                f.write(format_prefix + "".join(s_text) + format_sufix + "\n")
+                f.close()
+
+                try:
+
+                    del s_text[i + 2]
+                    del s_text[i]
+                except:
+                    pass
+                # --stop-- text verarbeitung
+
+            # --start-- export
+
+            f = open('output.txt', 'r+')
+            ft = f.read()
+            self.Export.setPlainText(ft)
+            f.close()
+
+            os.remove("output.txt")
+
+            # --stop-- export
+
+        # --stop-- scripts
+
+        # --start-- events connect ui
+
+        self.Generate.clicked.connect(generate_script)
+
+        # --stop-- events connect ui
+
+# --stop-- custome code
