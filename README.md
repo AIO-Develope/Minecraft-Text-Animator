@@ -19,3 +19,16 @@ Example:
 
 <img src="https://user-images.githubusercontent.com/69240351/160253839-3be65fdf-f4f4-4d4d-95d4-d12abbe93c8d.gif" width="40%" height="40%"/>
 
+# ToDo
+
+Wave Animation
+- ✅ prototype
+- ✅ ui design
+- ✅ ui functions
+- ❌ preview
+
+Blink Animation
+- ❌ prototype
+- ❌ ui design
+- ❌ ui functions
+- ❌ preview
