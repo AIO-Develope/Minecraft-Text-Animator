@@ -25,6 +25,7 @@ Wave Animation
 - ✅ prototype
 - ✅ ui design
 - ✅ ui functions
+- ❌ copy text button
 - ❌ preview
 
 Blink Animation
