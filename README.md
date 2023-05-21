@@ -10,6 +10,7 @@
 </h1>
 
 I think project is dead :(
+
 Minecraft Text Animators is perfect for animate text with colorcodes for minecraft server.
 
 # General Informations
