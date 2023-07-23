@@ -9,7 +9,7 @@
     </div>
 </h1>
 
-This project is no longer active and is not usable!
+This project is no longer active and is only for really simple usage.
 
 Minecraft Text Animators is perfect for animate text with colorcodes for minecraft server.
 
